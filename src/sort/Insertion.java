@@ -1,5 +1,10 @@
 package sort;
 
+/**
+ * 插入排序
+ * @author ilovejava1314
+ *
+ */
 public class Insertion {
 
 	public static void main(String[] args) {
@@ -26,7 +31,6 @@ public class Insertion {
             }
             // 执行完一次循环，当前索引 i 处的值为最小值，直到循环结束即可完成排序
         }
-
     }
 
 }
