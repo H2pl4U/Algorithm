@@ -1,5 +1,10 @@
 package sort;
 
+/**
+ * ц╟ещеепР
+ * @author ilovejava1314
+ *
+ */
 public class BubbleSort {
 
 	public static void main(String[] args) {

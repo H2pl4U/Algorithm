@@ -2,6 +2,11 @@ package sort;
 
 import java.util.Arrays;
 
+/**
+  * Ï£¶ûÅÅĞò
+ * @author ilovejava1314
+ *
+ */
 public class ShellSort {
 
 	public static void main(String[] args) {
