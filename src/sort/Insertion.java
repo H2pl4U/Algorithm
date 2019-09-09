@@ -2,35 +2,36 @@ package sort;
 
 /**
  * 插入排序
+ * 
  * @author ilovejava1314
  *
  */
 public class Insertion {
 
 	public static void main(String[] args) {
-		int[] arr = {4,2,5,7,1,3,9,8,10,6};
-		sort(arr);
+		int[] arr = { 4, 2, 5, 7, 1, 3, 9, 8, 10, 6 };
+		insertionSort(arr);
 		for (int i : arr) {
 			System.out.println(i);
 		}
 	}
-	
-	public static void sort(int[] arr) {
-		for (int i = 0; i < arr.length - 1; i++) {
-            int minIndex = i; // 用来记录最小值的索引位置，默认值为i
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[minIndex]) {
-                    minIndex = j; // 遍历 i+1~length 的值，找到其中最小值的位置
-                }
-            }
-            // 交换当前索引 i 和最小值索引 minIndex 两处的值
-            if (i != minIndex) {
-                int temp = arr[i];
-                arr[i] = arr[minIndex];
-                arr[minIndex] = temp;
-            }
-            // 执行完一次循环，当前索引 i 处的值为最小值，直到循环结束即可完成排序
-        }
-    }
+
+	public static void insertionSort(int[] arr) {
+		//从下标为1开始查找，前面仅一个元素，默认有序
+		for (int i = 1; i < arr.length; i++) {
+			//记录要插入的数据
+			int temp = arr[i];
+			int j = i;
+			//从已经排序的最右端开始比较，找到比其小的数
+			while (j > 0 && temp < arr[j - 1]) {
+				arr[j] = arr[j - 1];
+				j--;
+			}
+			//存在的话插入
+			if (j != i) {
+				arr[j] = temp;
+			}
+		}
+	}
 
 }
