@@ -35,6 +35,10 @@ public class ShellSort {
 			}
 		}
 		System.out.println(Arrays.toString(arr));
-
 	}
+	
+	public static void shellSort1(int[] arr) {
+		
+	}
+	
 }
