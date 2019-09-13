@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 /*
  * ª∑–Œ¡¥±Ì
+ * 
  */
 public class ListNode06 {
 	public boolean hasCycle(ListNode head) {
