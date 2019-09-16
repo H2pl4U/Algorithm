@@ -2,6 +2,7 @@ package digui;
 
 public class DiGui {
 
+	//¼òµ¥µÝ¹é
 	public static void main(String[] args) {
 		int n = 5;
 		int sum = getsum(n);
