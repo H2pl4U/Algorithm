@@ -19,7 +19,7 @@ public class Insertion {
 	public static void insertionSort(int[] arr) {
 		//从下标为1开始查找，前面仅一个元素，默认有序
 		for (int i = 1; i < arr.length; i++) {
-			//记录要插入的数据
+			//记录要插入的数据 
 			int temp = arr[i];
 			int j = i;
 			//从已经排序的最右端开始比较，找到比其小的数
