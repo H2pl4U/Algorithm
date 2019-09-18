@@ -11,7 +11,7 @@ public class QuickSort {
 		int[] a ={12,20,5,26,35,1,30,45,23,9};
 		int start = 0;
 		int end =a.length-1;
-		sort(a,start,end);
+		sort(a,start,end); 
 		for(int i = 0;i<a.length;i++){
 			System.out.println(a[i]);
 		}
