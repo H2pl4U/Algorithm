@@ -1,4 +1,4 @@
-package mianshi;
+package bishi;
 
 import java.util.Scanner;
 

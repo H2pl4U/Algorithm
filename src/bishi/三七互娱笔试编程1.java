@@ -1,4 +1,4 @@
-package mianshi;
+package bishi;
 
 /*
  * 股票最佳买入时机
