@@ -2,7 +2,7 @@ package sort;
 
 /**
  * ∂—≈≈–Ú
- * @author ilovejava1314
+ * @author ilovejava1314 
  *
  */
 public class HeadSort {
