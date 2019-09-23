@@ -5,7 +5,7 @@ package sort;
  * @author ilovejava1314 
  *
  */
-public class HeadSort {
+public class HeapSort {
 
 	public static void main(String[] args) {
 		int[] arr = { 4, 2, 5, 7, 1, 3, 9, 8, 10, 6 };
