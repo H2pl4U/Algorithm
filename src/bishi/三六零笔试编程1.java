@@ -2,7 +2,7 @@ package bishi;
 
 import java.math.BigInteger;
 import java.util.Scanner;
-
+ 
 public class ÈıÁùÁã±ÊÊÔ±à³Ì1 {
 
 	public static void main(String[] args) {
