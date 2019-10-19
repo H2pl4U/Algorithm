@@ -2,6 +2,7 @@ package bishi;
 
 import java.util.Scanner;
 
+//ac100%
 public class ÌìÈÚĞÅ±ÊÊÔ±à³Ì1 {
 
 	public static void main(String[] args) {
