@@ -31,6 +31,7 @@ public class Insertion {
 			if (j != i) {
 				arr[j] = temp;
 			}
+			
 		}
 	}
 
