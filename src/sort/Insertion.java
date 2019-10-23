@@ -9,7 +9,7 @@ package sort;
 public class Insertion {
 
 	public static void main(String[] args) {
-		int[] arr = { 4, 2, 5, 7, 1, 3, 9, 8, 10, 6 };
+		int[] arr = { 4, 2, 5, 7, 1, 3, 9, 8, 10, 6,11 };
 		insertionSort(arr);
 		for (int i : arr) {
 			System.out.println(i);
