@@ -21,7 +21,6 @@ public class Insertion {
 		for (int i = 1; i < arr.length; i++) {
 			//记录要插入的数据 
 			int temp = arr[i];
-			
 			int j = i;
 			//从已经排序的最右端开始比较，找到比其小的数
 			while (j > 0 && temp < arr[j - 1]) {
