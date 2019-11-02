@@ -2,7 +2,6 @@ package bishi;
 
 /*
  * 两个线程交替输出12A34B56C...5152Z
- * 
  */
 class MyThread1 implements Runnable {
 	public void run() {
