@@ -20,6 +20,7 @@ public class 数美科技笔试编程题3 {
 			System.out.println(strs);
 		}
 		sc.close();
+		
 	}
 
 	private static ArrayList<String> func(ArrayList<String> domainList, ArrayList<String> inputList) {
